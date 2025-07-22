@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "8249601"))
 API_HASH = environ.get("API_HASH", "33441ed906e6cf20c47c4c12f67c48cb")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/c8ab147da5d735994c135.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7255699844 1413767412').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "DoluramFilesBot") # without @
 PORT = environ.get("PORT", "8080")
