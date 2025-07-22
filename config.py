@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "33441ed906e6cf20c47c4c12f67c48cb")
 BOT_TOKEN = environ.get("BOT_TOKEN", "5242899289:AAGIss-XMGDWYbiNUpQaVICof9NSZ1jRKdU")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7255699844,1413767412').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7255699844').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "DoluramFilesBot") # without @
 PORT = environ.get("PORT", "8080")
 
