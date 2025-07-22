@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="" alt="FILE-STORE-BOT">
-</p>
+
 <h1 align="center">
  FILE STORE BOT
 </h1>
