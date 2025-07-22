@@ -48,12 +48,8 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001800192530"))
 
-# Clean unwanted text from caption
-raw_caption = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
-clean_caption = raw_caption.replace("vj botz", "").replace("VJ BOTZ", "").strip()
-CUSTOM_FILE_CAPTION = clean_caption
-
-# For batch as well
+# File Caption Information
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
