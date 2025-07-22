@@ -3,8 +3,6 @@
  FILE STORE BOT
 </h1>
 
-### Deploy Tutorial [Video Link](https://youtu.be/VxAn9VcYtQg)
-
 ## Features
 
 <b><details><summary>Tap On Me For Bot Features</summary>
@@ -28,8 +26,8 @@
 - `API_HASH` : Get From [my.telegram.org](https://my.telegram.org)
 - `BOT_TOKEN` : Get From [BotFather](https://telegram.me/BotFather)
 - `BOT_USERNAME` : Your Bot Username Without @
-- `DB_URI` : Mongodb Database Url For Main Bot [Tutorial Watch Here](https://youtu.be/DAHRmFdw99o)
-- `CLONE_DB_URI` : Mongodb Database Url For Clone Bot [Tutorial Watch Here](https://youtu.be/DAHRmFdw99o)
+- `DB_URI` : Mongodb Database Url For Main Bot
+- `CLONE_DB_URI` : Mongodb Database Url For Clone Bot
 - `ADMINS` : It mean Admin/Owner Id For Broadcasting Message.
 - `LOG_CHANNEL` : Log channel id start with -100xxxxxx
 - `URL` : Your Server App Link With https:// and in last make sure one / is given.
@@ -75,36 +73,3 @@
 
 </b>
 </details>
-
-## Credit
-
-<b><details><summary>Tap On Me For See Credit</summary>
-
-💝 Credit Goes To [Tech VJ](https://telegram.me/Kingvj01)
-
-🖍️ This Code Is Fully Written Or Coded And Public By [Tech VJ](https://telegram.me/Kingvj01) So Don't Forgot To Give Credit
-
-💖 And Thank You So Much To All Who Help In This Journey 💕
-
-Copyright ©️ [Tech VJ](https://telegram.me/Kingvj01)
-
-</b>
-</details>
-
-## About Owner 
-
-<b><details><summary>Tap On Me For See Details Of Owner</summary>
-
-- YouTube Channel : [Tech VJ](https://youtube.com/@Tech_VJ)
-- Telegram Channel : [VJ Botz](https://telegram.me/VJ_Botz)
-- Contact Link : [King VJ](https://telegram.me/Kingvj01)
-- Instagram Id Link : [Tech VJ](https://instagram.com/tech.vj)
-
-</b>
-</details>
-
-
-### Copyright ©️ [Tech VJ](https://telegram.me/Kingvj01)
-
-<b>Selling This Repo Or Code Of This Repo For Money Is Strictly Prohibited 🚫</b>
-
