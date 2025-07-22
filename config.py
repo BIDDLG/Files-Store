@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "33441ed906e6cf20c47c4c12f67c48cb")
 BOT_TOKEN = environ.get("BOT_TOKEN", "5242899289:AAGIss-XMGDWYbiNUpQaVICof9NSZ1jRKdU")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7255699844').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7255699844 1413767412').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "DoluramFilesBot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://Reenmayee1:Reenmayee1@cluster0.ewc3o.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DB_URI = environ.get("DB_URI", "mongodb+srv://Findyourmovie:Findyourmovie@cluster0.earpb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "DoluramFiles")
 
 # Auto Delete Information
@@ -67,7 +67,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "https://doluram.blogspot.com/2025/07/doluram.html") # For More Information Check Video On Yt - @Tech_VJ
+WEBSITE_URL = environ.get("WEBSITE_URL", "https://doluram.blogspot.com") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
