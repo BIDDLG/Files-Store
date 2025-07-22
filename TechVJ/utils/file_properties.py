@@ -55,4 +55,3 @@ return getattr(media, 'file_name', "")
 def get_media_file_size(m):
 media = get_media_from_message(m)
 return getattr(media, "file_size", 0)
-
