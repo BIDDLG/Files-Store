@@ -62,7 +62,13 @@ def get_hash(media_msg: Message) -> str:
 
 def get_name(media_msg: Message) -> str:
     media = get_media_from_message(media_msg)
-    return getattr(media, 'file_name', "")
+    name = getattr(media, 'file_name', "")
+
+    # Clean unwanted text
+    if name:
+        name = name.replace("vj botz", "").replace("VJ BOTZ", "").replace("VJBotz", "").strip()
+
+    return name
 
 
 def get_media_file_size(m):
